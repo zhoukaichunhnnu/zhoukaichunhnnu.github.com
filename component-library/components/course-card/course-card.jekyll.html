@@ -1,0 +1,44 @@
+{% assign c = "c-course-card" %}
+<div class="{{c}} col col-4 col-d-6 col-t-12">
+  <div class="{{c}}__inner">
+
+    {% if include.course.image %}
+    <div class="{{c}}__image-wrap">
+      <a class="{{c}}__image" href="{{ include.course.url }}">
+        <img loading="lazy" src="{{ include.course.image }}" alt="{{ include.course.title }}">
+      </a>
+    </div>
+    {% endif %}
+
+    <div class="{{c}}__content">
+
+      {% if include.course.tags.size >= 1 %}
+      <div class="{{c}}__tags-box">
+        {% for tag in include.course.tags %}
+        <a href="{{ site.baseurl }}/tag/{{ tag | downcase }}" class="{{c}}__tag">{{ tag }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <h2 class="{{c}}__title">
+        <a href="{{ include.course.url }}">{{ include.course.title }}</a>
+      </h2>
+
+      <p class="{{c}}__excerpt">
+        {% if include.course.description %}{{ include.course.description }}{% else %}{{ include.course.content | strip_html | truncate: 120 }}{% endif
+        %}
+      </p>
+
+      <div class="{{c}}__meta">
+        <div class="{{c}}__author-image">
+          <img loading="lazy" src="{{ site.data.general_settings.image_server_address }}/{{include.course.author_image}}" alt="{{ include.course.author_name }}">
+        </div>
+        <div class="{{c}}__info">
+          <div class="{{c}}__author-name">{{ include.course.author_name  }}</div>
+          <span class="{{c}}__date"><time datetime="{{ include.course.date | date_to_xmlschema }}">{{ include.course.semester}}</time></span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

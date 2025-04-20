@@ -3,7 +3,7 @@
 # Example of adding a new link to the footer - {icon: "ion-logo-facebook", link: "https://facebook.com"}
 # Other icons can be found at https://ionicons.com/v4/
 social:
-- {icon: "Twitter", link: "https://twitter.com"}
-- {icon: "Github", link: "https://github.com"}
-- {icon: "Pinterest", link: "https://pinterest.com"}
-- {icon: "Youtube", link: "https://youtube.com"}
+- {name: "地理科学学院主页", icon: "https://mcpmap.cn/logo_DLKX.png", link: "https://dlkx.hunnu.edu.cn/"}
+- {name: "湖南师范大学主页", icon: "https://mcpmap.cn/logo_HNNU.png", link: "https://www.hunnu.edu.cn/"}
+#- {icon: "Pinterest", link: "https://pinterest.com"}
+#- {icon: "Youtube", link: "https://youtube.com"}

@@ -1,16 +1,23 @@
-logo_image: '/images/logo.svg' # You can add own logo. For example '/images/logo.png'.
+logo_image: https://mcpmap.cn/logo(48).png # You can add own logo. For example '/images/logo.png'.
 
 menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Projects'
-      url: '/projects/'
-    - title: 'Blog'
-      url: '/blog/'
-    - title: 'Pages'
-      submenu:
-      - url: '/about/'
-        title: 'About'
-      - url: '/elements/'
-        title: 'Elements'
+    - title: 'Courses'
+      url: '/course/'
+    - title: 'Students'
+      url: '/student/'
+    - title: 'Publications'
+      url: '/publication/'
+    - title: 'Connections'
+      url: '/connection/'
+    - url: '/about/'
+      title: 'About'
+
+#    - title: 'Pages'
+#      submenu:
+#      - url: '/about/'
+#        title: 'About'
+#      - url: '/elements/'
+#        title: 'Elements'

@@ -1,13 +1,15 @@
 ---
-date: 2018-11-11 12:01:35
-title: Strive not to be a success, but rather to be of value
+date: 2025-04-13 12:01:35
+title: Spatiotemporal Heterogeneity and Zoning...
+title_full: Spatiotemporal Heterogeneity and Zoning Strategies of Multifunctional Trade-Offs and Synergies in Cultivated Land in the Hexi Corridor
+author_name: 孙字祥
+author_image: szx_2022.jpg
 description: >-
-  Bring to the table win-win survival strategies to ensure proactive domination.
-  At the end of the day, going forward.
+  As the indispensable basic resource of agricultural production, cultivated land has always carried the important mission of maintaining food stability, promoting rural economic development, and maintaining ecological balance. However, in application, there is often a conflict between the multiple functions of cultivated land and the limited ability of cultivated land to perform multiple functions. Therefore, this paper uses hot spot analysis, the IUEMS model, the InVEST model, Pearson correlation coefficients and self-organizing feature maps (SOFMs) to explore the multifunctional trade-offs and synergistic relationships of cultivated land in the Hexi Corridor at the grid scale and the zoning optimization scheme. The results revealed that from 2000 to 2020, the cultivated land production functions and social security functions in the Hexi Corridor maintained a high level and continued to rise, and the hot spots exhibited a stable pattern of “central and southeast concentration”. The ecological function performance is relatively weak, and the hot spots are concentrated mainly in the southeast, whereas the landscape view recreational functions as a whole show a trend of gradual recovery after weakening. In terms of mutual relationships, there are significant synergies between cultivated land production and social security functions, whereas the trade-offs and synergies between other functions are complex and changeable. Production and social security show a coordinated spatial distribution pattern. Production, social security, and ecological functions are dominated by spatial trade-offs. The production and landscape recreation functions, social security and ecological functions, social security and landscape recreation functions, and ecological and landscape recreation functions are mainly synergistic in space. Through self-organizing feature map analysis, the cultivated land in the Hexi Corridor is divided into four functional areas: agricultural production-dominant areas, agricultural social security areas, ecological agriculture areas, and balanced development areas, and management objectives are proposed. This study can provide useful lessons and references for land use planning and management in other similar areas.
 tags:
-  - life
-  - notes
-image: /images/post-3.jpg
+  - multiple-functions
+  - trade-offs/synergies
+image: /images/post-1.jpg
 ---
 In qua quid est boni praeter summam voluptatem, et eam sempiternam. Cur post Tarentum ad Archytam. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, reman voluptatem amico percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit. Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit. Eadem nunc means adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in nis.
 

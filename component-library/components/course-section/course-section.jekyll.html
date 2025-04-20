@@ -1,5 +1,5 @@
-<!-- begin blog -->
-<section class="section blog" id="publications">
+<!-- begin course -->
+<section class="section course">
   <div class="container">
     <div class="row">
       <div class="col col-12">
@@ -13,11 +13,11 @@
             <div class="section__description">{{ include.description_html }} </div>
           </div>
 
-          {% if include.show_posts %}
+          {% if include.show_courses %}
           <div class="row">
-            {% if site.posts.size > 0 %}
-              {% for post in site.posts offset:0 limit:3 %}
-                {% bookshop blog-card post=post %}
+            {% if site.courses.size > 0 %}
+              {% for course in site.courses offset:0 limit:3 %}
+                {% bookshop course-card course=course %}
               {% endfor %}
             {% endif %}
           </div>
@@ -28,4 +28,4 @@
     </div>
   </div>
 </section>
-<!-- end blog -->
+<!-- end course -->

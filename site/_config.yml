@@ -1,4 +1,4 @@
-title: Vonge
+title: McpMap
 
 plugins:
   - jekyll-bookshop
@@ -25,12 +25,15 @@ collections:
     permalink: /:title/
   projects:
     output: true
-    permalink: /project/:slug
+    permalink: /connection/:slug
   testimonials:
     output: false
   posts:
     output: true
-    permalink: /blog/:slug
+    permalink: /publication/:slug
+  courses:
+    output: true
+    permalink: /course/:slug
 
 defaults:
   - scope:

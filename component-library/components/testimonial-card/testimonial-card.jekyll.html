@@ -4,12 +4,16 @@
     <div class="{{c}}__client-meta">
       {% if include.testimonial-item.image %}
         <div class="{{c}}__image-container">
-          <img class="{{c}}__client-avatar" src="{{ include.testimonial-item.image }}" alt="{{ include.testimonial-item.name }}">
+          <a class="{{c}}_image" href="{{ include.testimonial-item.url }}">
+            <img class="{{c}}__client-avatar"  src="{{site.data.general_settings.image_server_address}}/{{ include.testimonial-item.image }}" alt="{{ include.testimonial-item.name }}">
+          </a>
         </div>
       {% endif %}
       <div class="{{c}}__client-info">
         {% if include.testimonial-item.name %}
-          <h3 class="{{c}}__client-name">{{ include.testimonial-item.name }}</h3>
+          <h3 class="{{c}}__client-name">
+            <a href="{{ include.testimonial-item.url }}" style="color:white">{{ include.testimonial-item.name }}</a>
+          </h3>
         {% endif %}
         {% if include.testimonial-item.position %}
           <p class="{{c}}__client-position">{{ include.testimonial-item.position }}</p>

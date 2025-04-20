@@ -1,15 +1,19 @@
 footer_menu__settings:
   menu__items:
-    - title: 'Home'
+    - title: '主页'
       url: '/'
-    - title: 'Projects'
-      url: '/projects/'
-    - title: 'Elements'
-      url: '/elements/'
-    - title: 'About'
+    - title: 'Courses'
+      url: '/course/'
+    - title: 'Students'
+      url: '/student/'
+    - title: 'Publications'
+      url: '/publication/'
+    - title: 'Connections'
+      url: '/connection/'
+    - title: '关于我'
       url: '/about/'
-    - title: 'Blog'
-      url: '/blog/'
+
 
 copyright_text_html: >-
-  <p> 2021 &copy; <a href="/">Vonge</a>. Template by <a href="https://cloudcannon.com/">CloudCannon</a>.</p>
+  <p id="contact">Copyright © 2025 · <i class="icon ion-md-mail"></i> <a href="mailto:zhoukaichun@hunnu.edu.cn">zhoukaichun@hunnu.edu.cn</a></p>
+
